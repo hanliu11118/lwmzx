@@ -1,5 +1,5 @@
 @charset "utf-8";
 
-.header { width:100px; height:100px; margin:0 auto; }
+.header { width:1000px; height:100px; margin:0 auto; }
 .header h1 { line-height:100px; font-size:40px; color:#333; }
 
