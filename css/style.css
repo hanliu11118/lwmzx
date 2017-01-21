@@ -1,6 +1,61 @@
 @charset "utf-8";
 
-.header { width:1000px; height:100px; margin:0 auto; }
-.header h1 { line-height:100px; font-size:40px; color:#333; }
-.header a { font-size:16px; color:blue; }
+.header { width:1000px; height:150px; margin:0 auto; background:url(../img/header.jpg) no-repeat center; background-size:100%; }
+.header h1 { font-size:40px; font-weight:bold; color:#333; line-height:80px; text-indent:2em; }
+.header p { font-size:24px; line-height:50px; text-align:right; padding-right:150px; color:red; font-weight:bold; }
+
+.nav { width:100%; height:40px; background:green; }
+.nav ul { width:1000px; height:40px; margin:0 auto; }
+.nav ul li { width:120px; height:40px; line-height:40px; font-size:18px; font-family:"Microsoft YaHei"; float:left; text-align:center; }
+.nav ul li.active { background:#1c7120; }
+.nav ul li a { display:block; color:#fff; }
+
+.focus-wrap{ position:relative;}
+ul.focus-button{  padding:5px; position:absolute; bottom:0; right:10px;}
+ul.focus-button li{width:20px; height:20px; display: inline-block; cursor:pointer; margin-right:12px; line-height: 40px; text-align: center; font-size: 14px; background:#ff0; text-indent:-9999px;}
+ul.focus-button li.act{background: #f00; }
+ul.focus-content { width:600px; height:400px; position:relative; height: 350px;}
+ul.focus-content li{ width:600px; height:400px; line-height: 24px; font-size: 14px; position: absolute; }
+ul.focus-content li a { position:relative; display:block; width:600px; height:400px; }
+ul.focus-content li img{ width:100%; height:100%; }
+ul.focus-content li a p { position:absolute; bottom:0; left:0; height:50px; line-height:50px; width:560px; padding:0 20px; background:rgba(0,0,0,0.4); color:#fff; }
+
+.banner { width:1000px; height:400px; margin:0 auto; margin-top:20px; }
+.banner .ban-right { width:360px; height:400px; }
+.banner .ban-right .ban-title { width:360px; height:40px; background:#e5e5e5; }
+.banner .ban-right .ban-title p { line-height:40px; font-size:16px; margin-left:20px; color:#333; font-family:"Microsoft YaHei"; }
+.banner .ban-right .xx-list { width:100%; height:360px; overflow:hidden; }
+.banner .ban-right .xx-list li { height:40px; line-height:40px; font-size:14px;  }
+.banner .ban-right .xx-list li span { display:inline-block; text-align:center; width:20px; height:20px; line-height:20px; font-size:12px; vertical-align:top; color:#333; background:#999; margin:10px 10px 0 5px; }
+.banner .ban-right .xx-list li span.active { background:#f60; color:#fff; }
+.banner .ban-right .xx-list li i { color:#666; margin-right:5px; }
+.banner .ban-right .xx-list li a { display:inline-block; width:260px; color:#333; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+
+.wrap { width:1000px; margin:0 auto; }
+
+.menu { margin-top:20px; font-family:"Microsoft YaHei" }
+.menu-title { height:40px; line-height:40px; width:100%; background:#ddd; }
+.menu-title h2 { font-size:16px; margin-left:20px; color:#333; }
+.menu-title p { font-size:14px; margin-right:20px; }
+.menu-title p a { color:#666; }
+.pic-list { width:600px; height:640px; margin:10px 0; }
+.pic-list li { width:178px; height:298px; margin:10px; float:left; text-align:center; border:1px solid #e5e5e5; }
+.pic-list li img { width:178px; height:269px; }
+.pic-list li p { padding:0 10px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.word-list { width:360px; height:640px; margin:10px 0; }
+.word-list li { height:40px; line-height:40px; font-size:14px; }
+.word-list li a { display:inline-block; width:280px; color:#333; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.word-list li span { color:#999; }
+
+.footer { width:100%; height:100px; margin-top:10px; padding-top:20px; border-top:2px solid green; text-align:center; }
+.footer p { height:20px; line-height:20px; margin-top:15px; font-size:14px; color:#666; }
+.footer p a { color:#333; }
+.footer p a:hover { text-decoration:underline; color:green; }
+
+
+
+
+
+
+
 
